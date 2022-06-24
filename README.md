@@ -1,0 +1,1 @@
+A javascript code that prints your name, height and country on the screen
