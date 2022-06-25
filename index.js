@@ -1,10 +1,11 @@
-let firstName = "Juwon";
-let lastName = "Ishola";
-// the ''gives space to the code and do not allow it join togther 
-console.log('My name is' + ' '  + firstName + ' ' + lastName);
+let user = prompt("What is your name?: ");
+let userHeight = prompt("What is your height?: ");
+let userCountry = prompt("What is your country?: ");
 
-let myHeight = 6.5;
-console.log("My height is" + ' ' + myHeight);
+console.log(
+  `Your name is ${user}, you are ${userHeight}cm tall and you are from ${userCountry}.`
+);
 
-let myCountry= "Nigeria"
-console.log ('I am from' + ' ' + myCountry);
+alert(
+  `Your name is ${user}, you are ${userHeight}cm tall and you are from ${userCountry}.`
+);g
